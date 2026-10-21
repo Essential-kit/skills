@@ -1,0 +1,46 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Review & quality",
+      "description": "Review, test, and improve existing code.",
+      "skills": [
+        "code-review",
+        "diagnosing-bugs",
+        "tdd",
+        "improve-codebase-architecture"
+      ]
+    },
+    {
+      "title": "Planning & delivery",
+      "description": "Turn ideas into specs, tickets, implementations, and pull requests.",
+      "skills": [
+        "to-spec",
+        "to-tickets",
+        "implement",
+        "implement-spec",
+        "pr",
+        "handoff"
+      ]
+    },
+    {
+      "title": "Architecture & domain",
+      "description": "Design modules, capture domain language, and sharpen decisions.",
+      "skills": [
+        "codebase-design",
+        "domain-modeling",
+        "grill-with-docs",
+        "grilling",
+        "research"
+      ]
+    },
+    {
+      "title": "Writing",
+      "description": "Write documents and skills for agent consumption.",
+      "skills": [
+        "writing-for-agents"
+      ]
+    }
+  ]
+}

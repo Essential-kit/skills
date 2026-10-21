@@ -1,0 +1,12 @@
+# Installed skills and agent state
+.agents/
+.claude/
+.codex/
+.cursor/
+.opencode/
+.windsurf/
+skills-lock.json
+
+# Dependencies and OS files
+node_modules/
+.DS_Store
