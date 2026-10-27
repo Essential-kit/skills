@@ -44,7 +44,7 @@ Add `--agent <name>` to target a specific agent. Without `--global`, the CLI ins
 | `implement` | Implement a piece of work from a spec or ticket set. |
 | `implement-spec` | Implement a spec and tickets, and close the corresponding GitHub issues. |
 | `improve-codebase-architecture` | Scan for deepening opportunities and present them as an HTML report. |
-| `pr` | Write a PR body with summary, evidence, and merge-danger sections. |
+| `pr` | Author or revise a PR with scope checks, a summary, added/removed diff, evidence, and merge danger. |
 | `research` | Research primary sources and capture the findings as a Markdown report. |
 | `tdd` | Test-driven development with behavior-focused tests. |
 | `to-spec` | Turn the current conversation into a spec published to GitHub Issues. |
@@ -60,7 +60,7 @@ Add `--agent <name>` to target a specific agent. Without `--global`, the CLI ins
 ## Requirements
 
 - Node.js 22.20 or later for the `skills` CLI.
-- An authenticated `gh` CLI for the GitHub Issues workflows (`to-spec`, `to-tickets`, `implement`, `implement-spec`, and `code-review` when it fetches an issue).
+- An authenticated `gh` CLI for the GitHub Issues workflows (`to-spec`, `to-tickets`, `implement`, `implement-spec`, and `code-review` when it fetches an issue) and for `pr` submission.
 
 ## Repository layout
 
@@ -72,6 +72,6 @@ skills.sh.json
 
 ## Credits and license
 
-This pack is derived from [Matt Pocock's skills](https://github.com/mattpocock/skills), used under the MIT License. The `code-review` Simplification axis was inspired by [Meltiply's code-review skill](https://github.com/MeltiplyOrg/meltiply/blob/master/.agents/skills/code-review/SKILL.md), with original wording. Its Optimization axis and `SCALING.md` are original research with cited sources. The `pr` skill credits Dex Horthy's `show-me`; see `skills/pr/CREDITS.md`.
+This pack is derived from [Matt Pocock's skills](https://github.com/mattpocock/skills), used under the MIT License. The `code-review` Simplification axis was inspired by [Meltiply's code-review skill](https://github.com/MeltiplyOrg/meltiply/blob/master/.agents/skills/code-review/SKILL.md), with original wording. Its Optimization axis and `SCALING.md` are original research with cited sources. The `pr` skill credits Dex Horthy's `show-me` and adapts Meltiply's `pr` workflow; see `skills/pr/CREDITS.md`.
 
 See [LICENSE](LICENSE).
